@@ -1,0 +1,267 @@
+body{
+  margin: 0;
+}
+
+
+.header-box{
+  background-image: url("bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title-container{
+  width: 100%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  
+}
+.main-logo{
+  display: inline-block;
+  padding-left: 5px;
+}
+.try-it-free-button{
+  width: 15%;
+  display: inline-block;
+  margin-left: 750px;
+  position: relative;
+  border: 0;
+  border-radius: 50px;
+  background-color: white;
+  padding: 12.5px 30px;
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 1px 2px 3px 1px #cccccc;
+}
+.try-it-free-button:hover{
+  cursor: pointer;
+  color: #808080;
+}
+
+
+.header-body-container{
+  margin-top: 5%;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 0;
+}
+
+.header-row1{
+    width: 500px;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+
+.main-heading{
+  font-family: 'Poppins', sans-serif;
+  width: 80%;
+  display: inline-grid;
+  margin-right: 0;
+}
+.main-para{
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  display: inline-grid;
+  margin-right: 0;
+}
+.main-image{
+  object-fit: contain;
+  width: 95%;
+}
+.get-started-button{
+background-color: hsl(322, 100%, 66%);
+color: white;
+border: 0;
+border-radius: 50px;
+box-shadow: 1px 3px 3px hsl(322, 100%, 66%);
+padding: 12.5px 30px;
+}
+
+.get-started-button:hover{
+  cursor: pointer;
+  box-shadow: 2px 3px 2px hsl(322, 100%, 66%);
+  background-color: #ff99da;
+}
+
+.tile-container{
+  width: 85%;
+  height: 450px;
+  box-shadow: 3px -3px 3px 3px #cccccc;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 15px;
+  line-height: 1.5rem;
+  position: relative;
+}
+.tile-image1{
+  float: right;
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+}
+.tile-heading1{
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 12%;
+}
+.tile-para1{
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+  color:  hsl(208, 11%, 55%);
+}
+
+.tile-image2{
+  float: left;
+  width: 500px;
+  height: 400px;
+  margin-left: 10%;
+  display: inline-block;
+}
+.tile-heading2{
+  display: inline-block;
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 12%;
+}
+.tile-para2{
+  display: inline-block;
+  width: 35%;
+  margin-left: 10%;
+  color:  hsl(208, 11%, 55%);
+}
+
+
+.tile-image3{
+  float: right;
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+}
+.tile-heading3{
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 12%;
+}
+.tile-para3{
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+  color:  hsl(208, 11%, 55%);
+}
+
+
+.button-container{
+  width: 35%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  color: black;
+  left: 30%;
+  top: -85px;
+  padding-bottom: 25px;
+  box-shadow: 0 -4px 4px 2px #cccccc;
+}
+
+
+.footer-container{
+  display: inline-block;
+  margin-top: 150px;
+  width: 100%;
+  padding-top: 150px;
+  padding-left: 50px;
+  background-color: hsl(192, 100%, 9%) ;
+  color: hsl(208, 11%, 55%);
+  position: relative;
+}
+.footer-logo{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.contact-container{
+width: 29%;
+}
+.location-icon{
+  margin-right: 10px;
+  padding-bottom: 30px;
+}
+.phone-icon{
+  margin-right: 10px;
+}
+.email-icon{
+  margin-right: 10px;
+}
+.location-text{
+display: inline-block;
+width: 75%;
+margin-left: 10px;
+}
+.phone-text{
+  display: inline-block;
+  width: 75%;
+  margin-left: 10px;
+}
+.email-text{
+  display: inline-block;
+  width: 75%;
+  margin-left: 10px;
+}
+
+
+.footer-options-grid{
+  display: grid;
+  width: 30%;
+  grid-template-columns: auto auto;
+  margin-left: 35%;
+  position: absolute;
+  top: 230px;
+  grid-row-gap: 25px;
+}
+.footer-options-text:hover{
+  cursor: pointer;
+  color: #ff99da;
+  text-decoration: underline;
+}
+.social-icon-container{
+  width: 10%;
+  position: absolute;
+  top: 230px;
+  margin-left: 70%;
+}
+.social-icon{
+  margin-right: 15px;
+  border-radius: 100%;
+  padding: 5px;
+  border: 2px solid hsl(208, 11%, 55%);
+  color: hsl(208, 11%, 55%);
+}
+.social-icon:hover{
+  cursor: pointer;
+  color: #ff99da;
+  border: 2px solid #ff99da;
+}
+.copyright-container{
+  color: hsl(208, 11%, 55%);
+  width: 25%;
+  margin-left: 70%;
+  margin-bottom: 5%;
+}
+.attribution{
+    width: 15%;
+    margin-bottom: 2%;
+}
+.attribution > a{
+  color: hsl(208, 11%, 55%);
+}
+.attribution > a:hover{
+cursor: pointer;
+color: #ff99da;
+}
